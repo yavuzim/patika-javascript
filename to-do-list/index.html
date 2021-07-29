@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>to do list</title>
+  </head>
+  <body>
+    <div style="position: absolute; top: 0; right: 0">
+      <div id="liveToast" class="toast">
+        <button class="close" onclick="messageClose()">x</button>
+        <div class="toast-field"></div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div class="banner">
+          <img src="images/banner.png" alt="" />
+        </div>
+        <div class="title">
+          <h1>Yapılacaklar Listesi</h1>
+        </div>
+        <div class="input-btn-fied">
+          <input id="txtTodo" type="text" placeholder=" Bugün ne yapacaksın?" />
+          <button id="addButton" onclick="add_button_click()">Ekle</button>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="container container-nav">
+        <div class="list-field" id="todoList"></div>
+      </div>
+    </nav>
+    <script src="script.js"></script>
+  </body>
+</html>
