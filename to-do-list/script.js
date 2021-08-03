@@ -86,4 +86,5 @@ function clikcRemove(x) {
   });
   localArray.splice(x.id, "1");
   getLocal();
+  console.log(x);
 }
