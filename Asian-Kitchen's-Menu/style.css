@@ -54,9 +54,23 @@ header {
 }
 nav {
   background-color: aqua;
-  margin-top: 5px;
 }
 .nav-container {
+  background-color: #ff6a23;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-row-gap: 10px;
+}
+.food {
+  width: 470px;
   height: 200px;
-  max-width: 1200px;
+  border: 1px solid;
+  position: relative;
+  left: 8px;
+}
+.food-img {
+  height: 55px;
+  width: 150px;
+  background-color: red;
 }
