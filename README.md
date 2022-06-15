@@ -1,4 +1,5 @@
-# patika-javascript
+<i>Patika Platformunun Ücretsiz Olarak Sunmuş Olduğu JavaScript Eğitimine Ait Ödevler.</i>
+---
 https://yavuzim.github.io/patika-javascript/to-do-list/index.html
 
 https://yavuzim.github.io/patika-javascript/Asian-Kitchen's-Menu/index.html
