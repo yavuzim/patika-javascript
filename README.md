@@ -1,4 +1,4 @@
-<i>Patika Platformunun Ücretsiz Olarak Sunmuş Olduğu JavaScript Eğitimine Ait Ödevler.</i>
+# patika-javascript
 
 https://yavuzim.github.io/patika-javascript/to-do-list/index.html
 
